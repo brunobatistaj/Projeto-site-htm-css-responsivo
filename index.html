@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,user-scalable=0" />
+    <title>Projeto flexbox</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script type="text/javascript">window.onload = function(){
+        document.querySelector(".MenuMobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display=='flex'){
+                document.querySelector(".menu nav ul").style.display='none';
+            }else{
+                document.querySelector(".menu nav ul").style.display='flex';
+            }
+        });
+    };
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><a href="#"><img src="assets/logo.png"></a></div>
+            <div class="menu">
+                <nav>
+                    <div class="MenuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">pages</a></li>
+                        <li><a href="#">departments</a></li>
+                        <li><a href="#">timetable</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_text">
+                <div class="banner1">
+                    <div class="bannertitle">Emergency Case</div>
+                    <div class="bannerdesc">Texto</div>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="bannertitle">Doctors Timetable</div>
+                    <div class="bannerdesc">Texto</div>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="bannertitle">Opening Hours</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section class="">
+                <div class="widget">
+                    <div class="widget_title"> 
+                        <div class="widget_text">Latest News</div>
+                        <div class="widget_textbar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <article>
+                            <a href="#">
+                            <div class="news_data">
+                                <div class="posted_at">12 DEC 12</div>
+                                <div class="news_coments">2</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="assets/doutor.jpg" alt="">
+                            </div>
+                            <div class="news_title">Lorem Ipsum dolor sit amat velum</div>
+                            <div class="news_resume">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </div>
+                        </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                            <div class="news_data">
+                                <div class="posted_at">12 DEC 12</div>
+                                <div class="news_coments">2</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="assets/doutor.jpg" alt="">
+                            </div>
+                            <div class="news_title">Lorem Ipsum dolor sit amat velum</div>
+                            <div class="news_resume">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </div>
+                        </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                            <div class="news_data">
+                                <div class="posted_at">12 DEC 12</div>
+                                <div class="news_coments">2</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="assets/doutor.jpg" alt="">
+                            </div>
+                            <div class="news_title">Lorem Ipsum dolor sit amat velum</div>
+                            <div class="news_resume">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </div>
+                        </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                            <div class="news_data">
+                                <div class="posted_at">12 DEC 12</div>
+                                <div class="news_coments">2</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="assets/doutor.jpg" alt="">
+                            </div>
+                            <div class="news_title">Lorem Ipsum dolor sit amat velum</div>
+                            <div class="news_resume">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </div>
+                        </a>
+                        </article>
+                    </div>
+                </div>
+
+            </section>
+            <aside class="">
+                <div class="widget">
+                    <div class="widget_title"> 
+                        <div class="widget_text">Departements</div>
+                        <div class="widget_textbar"></div>
+                    </div>
+                    <div class="widget_body">
+
+
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title"> 
+                        <div class="widget_text">Make An Appointement</div>
+                        <div class="widget_textbar"></div>
+                    </div>
+                    <div class="widget_body">
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </section>
+
+<footer>
+    <div class="container flexcolumn">
+        <div class="footer_menu">
+            <div class="fm_1">
+                <a href="#">
+                    ....
+                </a>
+            </div>
+            <div class="fm_2">
+                <a href="#">
+                    ....
+                </a>
+            </div>
+            <div class="fm_3">
+                <a href="#">
+                    ....
+                </a>
+            </div>
+        </div>
+
+        <div class="footer_area">
+            <div class="footer_area_item">
+                <div class="widget">
+                    <div class="widget_title"> 
+                        <div class="widget_text">Medicenter Clinic</div>
+                        <div class="widget_textbar"></div>
+                    </div>
+                    <div class="widget_body">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer_area_item">
+                <div class="widget">
+                    <div class="widget_title"> 
+                        <div class="widget_text">Latest Posts</div>
+                        <div class="widget_textbar"></div>
+                    </div>
+                    <div class="widget_body">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer_area_item">
+                <div class="widget">
+                    <div class="widget_title"> 
+                        <div class="widget_text">Latest Tweets</div>
+                        <div class="widget_textbar"></div>
+                    </div>
+                    <div class="widget_body">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copy">@Copyright - Todos Direitos Reservados</div>
+    </div>
+
+
+</footer>
+</body>
+</html>
